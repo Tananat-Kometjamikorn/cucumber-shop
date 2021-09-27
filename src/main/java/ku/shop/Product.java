@@ -34,4 +34,10 @@ public class Product {
             throw new IllegalArgumentException("Quantity must be positive");
         this.quantity = quantity;
     }
+//    public String checkStock(int buyQuantity) throws NotEnoughItemException {
+//        if (buyQuantity < getQuantity()){
+//            return "Enough to buy";
+//        }
+//        throw new NotEnoughItemException("Not enough item in stock");
+//    }
 }

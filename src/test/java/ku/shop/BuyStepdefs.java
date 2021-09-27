@@ -33,5 +33,20 @@ public class BuyStepdefs {
     public void total_should_be(double total) {
         assertEquals(total, order.getTotal());
     }
+
+//    @Given("a product {string} have {int} item in stock")
+//    public void a_product_have_item_in_stock(String name, int quantity) {
+//        catalog.addProduct(name, 0, quantity);
+//    }
+//
+//    @When("customer buy {string} with quantity {int}")
+//    public void customer_buy_with_quantity(String name, int quantity){
+//
+//    }
+//
+//    @Then("user say {string}")
+//    public void user_say(String result){
+//        assertEquals();
+//    }
 }
 
